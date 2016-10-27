@@ -1,0 +1,18 @@
+<taglib>
+
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name>Tag Lib Demo</short-name>
+    <uri>http://rahmeier.karen.tags</uri>
+    <tag>
+        <name>Hello</name>
+        <tag-class>rahmeier.karen.taglibdemo.HelloWorldTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    <tag>
+        <name>TimeOfDay</name>
+        <tag-class>rahmeier.karen.taglibdemo.TimeOfDayTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+
+</taglib>
